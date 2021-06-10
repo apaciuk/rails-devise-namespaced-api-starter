@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Starter namespaced and tested Rails API with devise token auth
 
-Things you may want to cover:
+# Ruby version
 
-* Ruby version
+Ruby 2.7.3
+Rails 6.0.37
 
-* System dependencies
+#  System dependencies
 
-* Configuration
+gem 'devise'
+gem 'simple_token_authentication'
 
-* Database creation
+#  Database creation
 
-* Database initialization
+rake db:create
 
-* How to run the test suite
+# Database initialization
 
-* Services (job queues, cache servers, search engines, etc.)
+rake db:migrate
 
-* Deployment instructions
+# Use
 
-* ...
+Starter namespaced API for anything, with authorised token authenticated devise user signup, signin and logout
